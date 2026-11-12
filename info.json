@@ -1,13 +1,17 @@
 {
-  "name": "Flow Control",
-  "version": "3.2.4",
-  "title": "Flow Control",
-  "author": "GotLag",
+  "name": "flow-control-updated",
+  "version": "1.0.0",
+  "title": "Flow Control: Updated",
+  "author": "GotLag; FactorioMods (Factorio 2.1 port)",
   "homepage": "https://forums.factorio.com/viewtopic.php?f=94&t=20645",
-  "description": "Adds pipes with restricted connections to easily build parallel pipelines. Includes valves from the Valves mod.",
+  "description": "Factorio 2.1 compatibility fork of Flow Control. Adds pipes with restricted connections to easily build parallel pipelines. Includes valves from the Valves mod.",
   "factorio_version": "2.1",
   "dependencies": [
-    "base >= 2.0.8",
-    "? valves >= 1.0.0"
+    "base >= 2.1.24",
+    "? valves >= 1.0.0",
+    "! Flow Control"
+  ],
+  "migrates_from": [
+    "Flow Control"
   ]
 }

@@ -4,7 +4,7 @@ local pipe = data.raw["pipe"]["pipe"]
 -- Pipe Elbow ****************************************************************************
 pipe_elbow = util.table.deepcopy(data.raw["storage-tank"]["storage-tank"])
 pipe_elbow.name = "pipe-elbow"
-pipe_elbow.icon = "__Flow Control__/graphics/icon/pipe-elbow.png"
+pipe_elbow.icon = "__flow-control-updated__/graphics/icon/pipe-elbow.png"
 pipe_elbow.icon_size = 64
 pipe_elbow.minable = pipe.minable
 pipe_elbow.corpse = "pipe-remnants"
@@ -51,7 +51,7 @@ pipe_elbow.working_sound = nil
 -- Pipe Junction *************************************************************************
 pipe_junction = util.table.deepcopy(pipe_elbow)
 pipe_junction.name = "pipe-junction"
-pipe_junction.icon = "__Flow Control__/graphics/icon/pipe-junction.png"
+pipe_junction.icon = "__flow-control-updated__/graphics/icon/pipe-junction.png"
 pipe_junction.selection_box = {{-0.5, -0.35}, {0.5, 0.5}}
 pipe_junction.fluid_box.pipe_connections =
 {
@@ -77,7 +77,7 @@ pipe_junction.pictures =
 -- Pipe Straight *************************************************************************
 pipe_straight = util.table.deepcopy(pipe_elbow)
 pipe_straight.name = "pipe-straight"
-pipe_straight.icon = "__Flow Control__/graphics/icon/pipe-straight.png"
+pipe_straight.icon = "__flow-control-updated__/graphics/icon/pipe-straight.png"
 pipe_straight.selection_box = {{-0.35, -0.5}, {0.35, 0.5}}
 pipe_straight.fluid_box.pipe_connections =
 {

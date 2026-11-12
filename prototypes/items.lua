@@ -21,7 +21,7 @@ data:extend({
   {
     type = "item",
     name = "pipe-junction",
-    icon = "__Flow Control__/graphics/icon/pipe-junction.png",
+    icon = "__flow-control-updated__/graphics/icon/pipe-junction.png",
     icon_size = 64,
     subgroup = pipe_subgroup,
     order = "b[pipe]-a[pipe]c",
@@ -35,7 +35,7 @@ data:extend({
   {
     type = "item",
     name = "pipe-elbow",
-    icon = "__Flow Control__/graphics/icon/pipe-elbow.png",
+    icon = "__flow-control-updated__/graphics/icon/pipe-elbow.png",
     icon_size = 64,
     subgroup = pipe_subgroup,
     order = "b[pipe]-a[pipe]d",
@@ -49,7 +49,7 @@ data:extend({
   {
     type = "item",
     name = "pipe-straight",
-    icon = "__Flow Control__/graphics/icon/pipe-straight.png",
+    icon = "__flow-control-updated__/graphics/icon/pipe-straight.png",
     icon_size = 64,
     subgroup = pipe_subgroup,
     order = "b[pipe]-a[pipe]e",

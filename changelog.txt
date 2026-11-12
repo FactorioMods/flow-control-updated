@@ -1,4 +1,10 @@
 ---------------------------------------------------------------------------------------------------
+Version: 1.0.0
+Date: 2026-11-12
+  Bugfixes:
+    - Support migration to native Valves 3 without calling its removed rebuild interface.
+    - Keep optional missing Valves integration pending instead of calling an absent interface.
+---------------------------------------------------------------------------------------------------
 Version: 3.2.4
 Date: 26. 06. 2026
   Info:
